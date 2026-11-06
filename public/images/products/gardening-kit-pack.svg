@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8EE"/>
+      <stop offset="100%" stop-color="#E3DAC2"/>
+    </linearGradient>
+    <linearGradient id="forestGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#174C35"/>
+      <stop offset="100%" stop-color="#0F3524"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7B957"/>
+      <stop offset="100%" stop-color="#D19E32"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="50" y="50" width="500" height="500" rx="24" fill="url(#boxGrad)" stroke="#D3C5A8" stroke-width="2" filter="drop-shadow(0 20px 30px rgba(23,76,53,0.15))"/>
+
+  <!-- Top Sleeve -->
+  <path d="M50,130 L550,130 L550,330 L50,330 Z" fill="url(#forestGrad2)"/>
+  <line x1="50" y1="130" x2="550" y2="130" stroke="url(#goldGrad2)" stroke-width="3"/>
+  <line x1="50" y1="330" x2="550" y2="330" stroke="url(#goldGrad2)" stroke-width="3"/>
+
+  <text x="300" y="190" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">DHARTI SAHELI</text>
+  <text x="300" y="215" font-family="sans-serif" font-size="12" font-weight="600" fill="#A8C5A0" text-anchor="middle" letter-spacing="2">HOME GARDENING STARTER KIT</text>
+
+  <!-- Tagline -->
+  <g transform="translate(160, 240)">
+    <rect x="0" y="0" width="280" height="36" rx="18" fill="url(#goldGrad2)"/>
+    <text x="140" y="23" font-family="sans-serif" font-size="13" font-weight="900" fill="#174C35" text-anchor="middle">“DON'T PANIC, IT'S ORGANIC.”</text>
+  </g>
+
+  <!-- Coming soon stamp -->
+  <g transform="translate(200, 390)">
+    <rect x="0" y="0" width="200" height="44" rx="22" fill="#E7B957" fill-opacity="0.2" stroke="#E7B957" stroke-width="2"/>
+    <text x="100" y="28" font-family="sans-serif" font-size="15" font-weight="900" fill="#79543B" text-anchor="middle" letter-spacing="2">COMING SOON</text>
+  </g>
+
+  <!-- Contents list snippet -->
+  <text x="300" y="475" font-family="sans-serif" font-size="13" font-weight="600" fill="#174C35" text-anchor="middle">Vermicompost • Cocopeat • Heirloom Seeds • Growing Guide</text>
+  <text x="300" y="505" font-family="sans-serif" font-size="11" fill="#79543B" text-anchor="middle">Phase 2 Expansion Offering • Handcrafted by Rural Women SHGs</text>
+</svg>

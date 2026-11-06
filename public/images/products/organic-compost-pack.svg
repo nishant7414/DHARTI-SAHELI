@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kraftBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EEDD"/>
+      <stop offset="50%" stop-color="#EADFCA"/>
+      <stop offset="100%" stop-color="#D3C3A5"/>
+    </linearGradient>
+    <linearGradient id="forestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#176B48"/>
+      <stop offset="100%" stop-color="#174C35"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7B957"/>
+      <stop offset="50%" stop-color="#FDE08B"/>
+      <stop offset="100%" stop-color="#D19E32"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#176B48" flood-opacity="0.18"/>
+    </filter>
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Pouch Body -->
+  <g filter="url(#dropShadow)">
+    <!-- Main Pouch Shape -->
+    <path d="M110,60 C180,50 420,50 490,60 L520,640 C520,680 470,700 300,700 C130,700 80,680 80,640 Z" fill="url(#kraftBg)" stroke="#D1BFA0" stroke-width="2"/>
+    
+    <!-- Top Seal Texture -->
+    <rect x="110" y="58" width="380" height="32" rx="4" fill="#D9C9AB" stroke="#C7B493" stroke-width="1"/>
+    <!-- Seal Ridges -->
+    <line x1="130" y1="66" x2="470" y2="66" stroke="#BEAB89" stroke-width="2" stroke-dasharray="4,3"/>
+    <line x1="130" y1="74" x2="470" y2="74" stroke="#BEAB89" stroke-width="2" stroke-dasharray="4,3"/>
+    <line x1="130" y1="82" x2="470" y2="82" stroke="#BEAB89" stroke-width="2" stroke-dasharray="4,3"/>
+
+    <!-- Forest Green Brand Arch Header -->
+    <path d="M98,110 Q300,140 502,110 L505,310 Q300,340 95,310 Z" fill="url(#forestGrad)"/>
+    
+    <!-- Subtle Golden Border on Banner -->
+    <path d="M98,110 Q300,140 502,110" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+    <path d="M95,310 Q300,340 505,310" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+
+    <!-- Organic Sprout Icon -->
+    <g transform="translate(270, 130) scale(1.4)">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.93V15c0-1.66-1.34-3-3-3H8v-2h2c2.76 0 5 2.24 5 5v1.93c2.83-.48 5-2.95 5-5.93 0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.97 2.16 5.43 5 5.93z" fill="#E7B957" opacity="0.9"/>
+    </g>
+
+    <!-- Brand Name -->
+    <text x="300" y="205" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">DHARTI SAHELI</text>
+    <text x="300" y="232" font-family="sans-serif" font-size="11" font-weight="600" fill="#A8C5A0" text-anchor="middle" letter-spacing="3">WOMEN-LED CIRCULAR ENTERPRISE</text>
+
+    <!-- Official Tagline Badge (Prominent) -->
+    <g transform="translate(150, 252)">
+      <rect x="0" y="0" width="300" height="38" rx="19" fill="url(#goldGrad)" stroke="#FFFFFF" stroke-width="1.5"/>
+      <text x="150" y="24" font-family="sans-serif" font-size="14" font-weight="900" fill="#176B48" text-anchor="middle" letter-spacing="1.5">“DON'T PANIC, IT'S ORGANIC.”</text>
+    </g>
+
+    <!-- Product Title -->
+    <text x="300" y="375" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#176B48" text-anchor="middle">ENRICHED ORGANIC COMPOST</text>
+    <text x="300" y="402" font-family="sans-serif" font-size="12" font-weight="600" fill="#79543B" text-anchor="middle" letter-spacing="1.2">MATURED AEROBIC WINDROW RESTORATION</text>
+
+    <!-- Decorative Botanical Ring / Soil Bed -->
+    <circle cx="300" cy="490" r="70" fill="#176B48" fill-opacity="0.05" stroke="#A8C5A0" stroke-width="1.5" stroke-dasharray="6,4"/>
+    
+    <!-- Stylized Earthworm & Soil Silhouette inside Ring -->
+    <path d="M260,505 C275,480 300,520 325,485 C335,470 345,490 350,475" fill="none" stroke="#79543B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="350" cy="475" r="4" fill="#79543B"/>
+    <!-- Organic Leaf cluster -->
+    <path d="M290,470 Q300,440 320,445 Q315,465 290,470 Z" fill="#176B48"/>
+    <path d="M290,470 Q280,445 265,455 Q275,472 290,470 Z" fill="#A8C5A0"/>
+
+    <!-- Features Pills -->
+    <rect x="130" y="575" width="160" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="#A8C5A0"/>
+    <text x="210" y="594" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#176B48" text-anchor="middle">✓ FCO 1985 COMPLIANT</text>
+
+    <rect x="310" y="575" width="160" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="#A8C5A0"/>
+    <text x="390" y="594" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#176B48" text-anchor="middle">✓ SHG PRODUCED</text>
+
+    <!-- Weight & Batch Seal -->
+    <g transform="translate(130, 620)">
+      <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="800" fill="#176B48">NET WEIGHT: 25 kg / BULK</text>
+      <text x="0" y="34" font-family="monospace" font-size="9" fill="#79543B">BATCH: DS-2026-B08 • QR ON BACK</text>
+    </g>
+
+    <!-- QR Badge Placeholder -->
+    <g transform="translate(400, 615)">
+      <rect x="0" y="0" width="42" height="42" rx="6" fill="#FFFFFF" stroke="#176B48" stroke-width="1.2"/>
+      <!-- Mini QR pattern -->
+      <rect x="5" y="5" width="12" height="12" fill="#176B48"/>
+      <rect x="7" y="7" width="8" height="8" fill="#FFFFFF"/>
+      <rect x="9" y="9" width="4" height="4" fill="#176B48"/>
+      
+      <rect x="25" y="5" width="12" height="12" fill="#176B48"/>
+      <rect x="27" y="7" width="8" height="8" fill="#FFFFFF"/>
+      <rect x="29" y="9" width="4" height="4" fill="#176B48"/>
+
+      <rect x="5" y="25" width="12" height="12" fill="#176B48"/>
+      <rect x="7" y="27" width="8" height="8" fill="#FFFFFF"/>
+      <rect x="9" y="29" width="4" height="4" fill="#176B48"/>
+
+      <rect x="22" y="22" width="5" height="5" fill="#176B48"/>
+      <rect x="30" y="28" width="6" height="6" fill="#176B48"/>
+      <text x="21" y="52" font-family="sans-serif" font-size="7" font-weight="bold" fill="#176B48" text-anchor="middle">SCAN ME</text>
+    </g>
+  </g>
+</svg>
